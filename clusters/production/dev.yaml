@@ -7,6 +7,6 @@ spec:
   interval: 5m
   sourceRef:
     kind: GitRepository
-    name: flux-system
+    name: flux
   path: ./apps/nginx
   prune: true
