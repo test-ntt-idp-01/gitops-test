@@ -1,13 +1,7 @@
-apiVersion: v1
-kind: Namespace
-metadata:
-  name: idp-ns
----
 apiVersion: apps/v1
 kind: Deployment
 metadata:
   name: nginx
-  namespace: idp-ns
 spec:
   replicas: 2
   selector:
